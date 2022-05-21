@@ -1,14 +1,16 @@
 console.log('Java script carregado');
 
 function validaCPF(cpf) {
-    console.log(cpf.length)
     if(cpf.length != 11) {
         return false;
     } else {
         var numeros = cpf.substring(0, 9);
         var digitos = cpf.substring(9);
-
-        console.log(digitos);
+        
+        var soma = 0;
+        for (i=10; i>1; i--) {
+            
+        }
     }
 }
 
